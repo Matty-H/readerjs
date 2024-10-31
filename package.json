@@ -1,0 +1,19 @@
+{
+  "name": "readerjs",
+  "version": "1.0.0",
+  "description": "A manga reader in javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "reader",
+    "manga",
+    "js"
+  ],
+  "author": "matisse@lilite.fr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
