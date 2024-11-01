@@ -1,21 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Reader JS</title>
-  <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-  <div class='container'>
-    <div class='reader'>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reader JS</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="reader"></div>
+      <div class="buttons">
+        <button onclick="prev_page()">Prev.</button>
+        <button onclick="page_display()">Page Display</button>
+        <button onclick="next_page()">Next</button>
+      </div>
+      <script src="client.js"></script>
     </div>
-    <div class='buttons'>
-      <button onclick='prev_page()'>Prev.</button>
-      <button onclick='page_display()'>Page Display</button>
-      <button onclick='next_page()'>Next</button>
-    </div>
-    <script src='client.js'></script>
-  </div>
-    
-</body>
+  </body>
 </html>
