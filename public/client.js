@@ -39,4 +39,18 @@ function next_page() {
     }
 }
 
+function page_display() {
+    if (page_displayed == 1) {
+        page_displayed = 2
+    }
+    else {
+        page_displayed = 1
+        let img = document.getElementsByClassName(`reader_img_2`)[0]
+        if (img) {
+            img.parentNode.removeChild(img)
+    }
+}
+console.log('Nb of pages displayed is now '+page_displayed)
+}
+
 create_image()

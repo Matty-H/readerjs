@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port,() =>{
-    console.log(`Server is up http://192.168.1.48:${port}`)
+    console.log(`Server is up http://192.168.1.48:${port} or localhost:${port}`)
 })
